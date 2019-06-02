@@ -16,4 +16,9 @@ class SequenceIterator(object):
 		""" By Convention, an iterator must return itself as an iterator"""
 		return self
 	
+
+q = SequenceIterator([5,6,7])
+
+print(q.__next__())
+print(q.__next__())
 		
