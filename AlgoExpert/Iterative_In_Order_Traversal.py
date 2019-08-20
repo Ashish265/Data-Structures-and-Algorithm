@@ -22,3 +22,4 @@ def iterativeInOrderTraversal(tree, callback):
 			
 		previousNode = currentNode
 		currentNode = nextNode
+
